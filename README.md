@@ -1,24 +1,25 @@
-# site
+# Сайт для сокращения cсылок
 
-## Project setup
+## Описание проекта
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+Сервис сокращает ссылки, которые хранятся на клиенте (последние 5).
+В данном репозитории представлена только frontend часть.
+Ссылка на проект - https://ln.ag/
 ```
 
-### Compiles and minifies for production
+## Используемые технологии
 ```
-npm run build
+HTML5
+SCSS
+Vue
+axios, vue-clickaway, vue-router, qrcode.vue
+eslint
+webpack
 ```
 
-### Lints and fixes files
+## Команды для работы с проектом
 ```
-npm run lint
+npm install - настройка проекта
+npm run serve - запуск проекта
+npm run build - сборка проекта
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
